@@ -29,7 +29,7 @@ window.OYUN_AYAR = {
   // Kelimeler. İstediğin kategoriyi ekle/sil. Türkçe karakter şart değil;
   // chat "kokorec" yazsa da "KOKOREÇ" sayılır.
   kategoriler: [
-    { ad: "Porn Categories", kelimeler: [
+    { ad: "Purna Categories", kelimeler: [
       "Amateur", "Milf", "Stepmom", "Stepsister", "Blonde", "Brunette", "Redhead", "Asian", "Latina",
       "Ebony", "Euro", "Russian", "Japanese", "French", "Italian", "Brazilian", "Indian", "Lesbian",
       "Threesome", "Group", "Orgy", "Swingers", "Cougar", "Mature", "BBW", "Petite", "Curvy", "Busty",
@@ -41,34 +41,6 @@ window.OYUN_AYAR = {
       "Anal", "Oral", "Interracial", "Bisexual", "Transgender", "Cuckold", "Voyeur", "Exhibitionist",
       "Striptease", "Oiled", "Squirt", "Creampie", "Gangbang", "Double penetration", "Foot fetish"
     ] },
-    { ad: "Yemek", kelimeler: ["Lahmacun", "Kokoreç", "Menemen", "Mantı", "Baklava", "İskender", "Kumpir",
-      "Künefe", "Tantuni", "Gözleme", "Midye dolma", "Çiğ köfte", "Kuru fasulye", "Kazandibi", "Börek"] },
-    { ad: "İstanbul", kelimeler: ["Kadıköy", "Beşiktaş", "Üsküdar", "Karaköy", "Eminönü", "Galata", "Balat",
-      "Ortaköy", "Kız Kulesi", "Kapalıçarşı", "Bebek", "Sultanahmet", "Moda", "Cihangir"] },
-    { ad: "Şehir", kelimeler: ["Trabzon", "Eskişehir", "Gaziantep", "Antalya", "Erzurum", "Mardin", "Bursa",
-      "İzmir", "Kastamonu", "Diyarbakır", "Çanakkale", "Hatay"] },
-    { ad: "Hayvan", kelimeler: ["Martı", "Sincap", "Kirpi", "Flamingo", "Penguen", "Zürafa", "Timsah",
-      "Kaplumbağa", "Ahtapot", "Yunus", "Baykuş"] },
-    { ad: "Meslek", kelimeler: ["Taksici", "Berber", "Kasap", "Simitçi", "İtfaiyeci", "Astronot", "Kuaför",
-      "Garson", "Kurye", "Dalgıç"] },
-    { ad: "Yayın", kelimeler: ["Takipçi", "Moderatör", "Powerbank", "Kamera", "Bağış", "Abone", "Mikrofon",
-      "Selfie çubuğu", "Bağlantı"] },
-    { ad: "Teknoloji", kelimeler: ["Bilgisayar", "Klavye", "Kulaklık", "Hoparlör", "Tablet", "Akıllı saat", "Robot",
-      "Drone", "Yapay zeka", "İşlemci", "Ekran kartı", "Anakart", "Modem", "Bluetooth", "Uygulama", "Yazılım",
-      "Şifre", "Oyun konsolu", "Joystick", "Projeksiyon", "Elektrikli araba", "Sanal gerçeklik", "Bulut", "Emoji",
-      "Hashtag", "Algoritma", "Siber güvenlik", "Şarj kablosu", "Monitör", "Web sitesi"] },
-    { ad: "Meyve", kelimeler: ["Karpuz", "Kavun", "Çilek", "Kiraz", "Şeftali", "Ananas", "Mandalina", "Nar", "İncir",
-      "Böğürtlen", "Ayva", "Kayısı", "Muz", "Portakal", "Erik", "Üzüm", "Armut", "Vişne", "Dut", "Hindistan cevizi"] },
-    { ad: "Ev Eşyası", kelimeler: ["Buzdolabı", "Koltuk", "Yastık", "Battaniye", "Ayna", "Süpürge", "Ütü", "Çaydanlık",
-      "Kumanda", "Perde", "Halı", "Tencere", "Bardak", "Çatal", "Kaşık", "Yorgan", "Gardırop", "Fırın", "Tost makinesi", "Bulaşık makinesi"] },
-    { ad: "Spor", kelimeler: ["Futbol", "Basketbol", "Voleybol", "Tenis", "Yüzme", "Boks", "Güreş", "Kayak", "Sörf",
-      "Bisiklet", "Okçuluk", "Satranç", "Hentbol", "Kaleci", "Penaltı", "Hakem", "Korner", "Ofsayt", "Maraton", "Halter"] },
-    { ad: "Ülke", kelimeler: ["Japonya", "Brezilya", "İtalya", "Almanya", "Mısır", "Kanada", "Meksika", "Hollanda",
-      "Yunanistan", "Avustralya", "Hindistan", "Arjantin", "İspanya", "Fransa", "Azerbaycan", "Portekiz", "Norveç", "Güney Kore"] },
-    { ad: "Okul", kelimeler: ["Kalem", "Silgi", "Defter", "Cetvel", "Öğretmen", "Teneffüs", "Karne", "Sınav", "Tahta",
-      "Okul çantası", "Kantin", "Ödev", "Kalemtıraş", "Mezuniyet", "Müdür", "Sıra arkadaşı"] },
-    { ad: "Doğa", kelimeler: ["Gökkuşağı", "Şimşek", "Yağmur", "Volkan", "Şelale", "Orman", "Çöl", "Ada", "Mağara",
-      "Kum fırtınası", "Buzul", "Okyanus", "Vadi", "Kartopu", "Gün batımı", "Dolunay", "Yıldız", "Rüzgar"] },
   ],
 
   // Skorların ve kullanılan kelimelerin bu bilgisayarda saklandığı ad. Her yayıncının kopyasında farklı olmalı.
