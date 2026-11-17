@@ -29,6 +29,18 @@ window.OYUN_AYAR = {
   // Kelimeler. İstediğin kategoriyi ekle/sil. Türkçe karakter şart değil;
   // chat "kokorec" yazsa da "KOKOREÇ" sayılır.
   kategoriler: [
+    { ad: "Porn Categories", kelimeler: [
+      "Amateur", "Milf", "Stepmom", "Stepsister", "Blonde", "Brunette", "Redhead", "Asian", "Latina",
+      "Ebony", "Euro", "Russian", "Japanese", "French", "Italian", "Brazilian", "Indian", "Lesbian",
+      "Threesome", "Group", "Orgy", "Swingers", "Cougar", "Mature", "BBW", "Petite", "Curvy", "Busty",
+      "Natural", "Tattooed", "Pierced", "Goth", "Cosplay", "Hentai", "Anime", "VR", "POV", "Massage",
+      "Secretary", "Nurse", "Maid", "Teacher", "Cheerleader", "Police", "Fitness", "Yoga", "Gym",
+      "lingerie", "Stockings", "High heels", "Latex", "Leather", "Fetish", "BDSM", "Bondage", "Femdom",
+      "Roleplay", "Public", "Outdoor", "Beach", "Pool", "Shower", "Casting", "Hidden cam", "Webcam",
+      "Solo", "Compilation", "Romantic", "Hardcore", "Softcore", "Vintage", "Classic", "Parody", "ASMR",
+      "Anal", "Oral", "Interracial", "Bisexual", "Transgender", "Cuckold", "Voyeur", "Exhibitionist",
+      "Striptease", "Oiled", "Squirt", "Creampie", "Gangbang", "Double penetration", "Foot fetish"
+    ] },
     { ad: "Yemek", kelimeler: ["Lahmacun", "Kokoreç", "Menemen", "Mantı", "Baklava", "İskender", "Kumpir",
       "Künefe", "Tantuni", "Gözleme", "Midye dolma", "Çiğ köfte", "Kuru fasulye", "Kazandibi", "Börek"] },
     { ad: "İstanbul", kelimeler: ["Kadıköy", "Beşiktaş", "Üsküdar", "Karaköy", "Eminönü", "Galata", "Balat",
