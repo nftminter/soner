@@ -29,7 +29,7 @@
   .sik .harf { flex:none; width:7rem; height:7rem; border-radius:1.6rem; display:grid; place-items:center; font-weight:900; font-size:4.4rem; color:#000; z-index:1; }
   .sik:nth-child(1) .harf { background:#ff8a3d; } .sik:nth-child(2) .harf { background:var(--mavi); }
   .sik:nth-child(3) .harf { background:#c58bff; } .sik:nth-child(4) .harf { background:var(--sari); }
-  .sik .yazi { font-size:3.8rem; font-weight:700; line-height:1.2; z-index:1; }
+  .sik .yazi { font-size:var(--sik-yazi, 3.8rem); font-weight:700; line-height:1.2; z-index:1; }
   .sik .cubuk { position:absolute; inset:0 auto 0 0; width:0; background:rgba(255,255,255,.07); transition:width .6s ease-out; }
   .sik .yuzde { margin-left:auto; font-weight:900; font-size:3.4rem; color:var(--soluk); z-index:1; opacity:0; transition:opacity .3s; }
   #siklar.acik .sik .yuzde { opacity:1; }
@@ -90,6 +90,19 @@
     animation:dus var(--sure, 1.8s) cubic-bezier(.3, .6, .6, 1) forwards; }
   @keyframes dus { to { transform:translate(var(--x, 0), 150rem) rotate(var(--r, 540deg)); opacity:.2; } }
 
+  /* Dikey pencere (OBS 600x800): daha sıkı düzen, skor tablosunda ilk 3 */
+  @media (max-aspect-ratio: 5/4) {
+    #kart { padding:3.4rem 4.4rem 2.6rem; }
+    #sayac { margin-top:1.2rem; }
+    #soru { min-height:0; margin-top:.8rem; }
+    #siklar { margin-top:2rem; gap:1.4rem; }
+    .sik { min-height:9.6rem; padding:1.4rem 2rem; }
+    .sik .harf { width:6.2rem; height:6.2rem; font-size:3.8rem; }
+    .ilerleme { margin-top:2rem; }
+    #duyuru { min-height:6rem; margin-top:1.4rem; }
+    h3 { margin:2.2rem 0 1rem; }
+    #skorlar li:nth-child(n+4) { display:none; }
+  }
   /* Geniş pencere: iki sütun (soru solda, skor sağda) */
   @media (min-aspect-ratio: 5/4) {
     html { font-size:min(calc(100vw / 176), calc(100vh / 92)); }
@@ -195,6 +208,10 @@
     $("#kategori").textContent = s.k || "Genel";
     $("#sayac").textContent = `Soru ${soruNo}`;
     const soru = $("#soru"); soru.textContent = s.s; soru.classList.remove("pop"); void soru.offsetWidth; soru.classList.add("pop");
+    // uzun soru ve şıklarda yazı küçülsün ki kart ekrana sığsın
+    soru.style.fontSize = s.s.length > 100 ? "4.1rem" : s.s.length > 70 ? "4.6rem" : "";
+    const enUzunSik = Math.max(...s.c.map(x => x.length));
+    $("#siklar").style.setProperty("--sik-yazi", enUzunSik > 22 ? "3rem" : enUzunSik > 15 ? "3.4rem" : "3.8rem");
     $("#siklar").classList.remove("acik");
     document.querySelectorAll(".sik").forEach((el, i) => {
       el.classList.remove("dogru");
