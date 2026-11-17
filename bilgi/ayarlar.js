@@ -4,6 +4,9 @@ window.OYUN_AYAR = {
   kanal: "soner",
   chatroomId: "7633982",
 
+  // Oyun her başladığında ilk sorulacak soru (sorular.js'teki sorunun metni). Boş bırakırsan ("") rastgele başlar.
+  ilkSoru: "Gece G olan yayıncı kimdir?",
+
   // Bir sorunun süresi (saniye)
   soruSuresi: 15,
 

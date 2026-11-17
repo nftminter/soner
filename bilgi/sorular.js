@@ -4,6 +4,24 @@
 // Yeni soru eklerken de doğru cevabı ilk sıraya yaz.
 
 window.SORULAR = [
+  // ---------- Yayın (yayıncılık ve Türk yayıncılar) ----------
+  { k: "Yayın", s: "Gece G olan yayıncı kimdir?", c: ["Soner", "Jahrein", "Elraenn", "wtcN"] },
+  { k: "Yayın", s: "Jahrein'in gerçek adı nedir?", c: ["Ahmet Sonuç", "Ferit Karakaya", "Tuğkan Gönültaş", "Barış Özcan"] },
+  { k: "Yayın", s: "Elraenn'in gerçek adı nedir?", c: ["Tuğkan Gönültaş", "Ahmet Sonuç", "Ferit Karakaya", "Enes Batur"] },
+  { k: "Yayın", s: "wtcN'in gerçek adı nedir?", c: ["Ferit Karakaya", "Tuğkan Gönültaş", "Ahmet Sonuç", "Ruhi Çenet"] },
+  { k: "Yayın", s: "Pqueen lakaplı yayıncının gerçek adı nedir?", c: ["Pelin Baynazoğlu", "Pelin Akil", "Pınar Altuğ", "Pelin Karahan"] },
+  { k: "Yayın", s: "Twitch hangi şirkete aittir?", c: ["Amazon", "Google", "Microsoft", "Meta"] },
+  { k: "Yayın", s: "Twitch'in kurulmadan önceki eski adı neydi?", c: ["Justin.tv", "Stream.tv", "Live.tv", "Game.tv"] },
+  { k: "Yayın", s: "YouTube hangi şirkete aittir?", c: ["Google", "Amazon", "Apple", "Microsoft"] },
+  { k: "Yayın", s: "Kick yayın platformunun logosu ağırlıkla hangi renktedir?", c: ["Yeşil", "Mor", "Kırmızı", "Mavi"] },
+  { k: "Yayın", s: "Hangisi yayıncıların en çok kullandığı ücretsiz yayın programıdır?", c: ["OBS Studio", "Photoshop", "Excel", "Premiere"] },
+  { k: "Yayın", s: "Yayın bitince izleyicileri başka bir yayıncıya göndermeye Twitch'te ne denir?", c: ["Raid", "Ban", "Clip", "Drop"] },
+  { k: "Yayın", s: "Yayında chat'i düzenleyen, kural dışı mesajları silen kişiye ne denir?", c: ["Moderatör", "Abone", "Sponsor", "Editör"] },
+  { k: "Yayın", s: "Yayından kesilip paylaşılan kısa ana ne denir?", c: ["Klip", "Raid", "Emote", "Banner"] },
+  { k: "Yayın", s: "Bir izleyicinin başkası adına abonelik almasına ne denir?", c: ["Gift sub (hediye abonelik)", "Follow", "Raid", "Ban"] },
+  { k: "Yayın", s: "'IRL' yayın ne demektir?", c: ["Gerçek hayattan, dışarıdan yayın", "Oyun yayını", "Müzik yayını", "Kayıttan yayın"] },
+  { k: "Yayın", s: "Chat'te birini kalıcı olarak susturmaya ne denir?", c: ["Ban", "Raid", "Host", "Clip"] },
+
   // ---------- Eğlenceli Bilgi (şaşırtan gerçekler) ----------
   { k: "Eğlenceli Bilgi", s: "Bir ahtapotun kaç kalbi vardır?", c: ["3", "1", "2", "8"] },
   { k: "Eğlenceli Bilgi", s: "Kutup ayısının tüylerinin altındaki derisi ne renktir?", c: ["Siyah", "Beyaz", "Pembe", "Gri"] },

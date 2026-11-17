@@ -189,8 +189,14 @@
   // ---------- Soru seçimi (tüm sorular sorulmadan hiçbiri tekrar etmez) ----------
   const TUM = (window.SORULAR || []).filter(x => x && x.s && x.c && x.c.length === 4);
   function siradakiSoru() {
-    let kalan = TUM.filter(x => !sorulan.includes(x.s));
-    if (!kalan.length) { const son = sorulan[sorulan.length - 1]; sorulan = []; kalan = TUM.filter(x => x.s !== son); if (!kalan.length) kalan = TUM.slice(); }
+    // Oyunun ilk sorusu ayarlardan (ilkSoru) gelir
+    if (soruNo === 0 && A.ilkSoru) {
+      const ilk = TUM.find(x => sade(x.s) === sade(A.ilkSoru));
+      if (ilk) return ilk;
+    }
+    const ilkMi = x => A.ilkSoru && sade(x.s) === sade(A.ilkSoru);   // ilk soru oyunun ortasında tekrar gelmesin
+    let kalan = TUM.filter(x => !sorulan.includes(x.s) && !ilkMi(x));
+    if (!kalan.length) { const son = sorulan[sorulan.length - 1]; sorulan = []; kalan = TUM.filter(x => x.s !== son && !ilkMi(x)); if (!kalan.length) kalan = TUM.slice(); }
     const s = kalan[Math.floor(Math.random() * kalan.length)];
     sorulan.push(s.s); kaydet();
     return s;
